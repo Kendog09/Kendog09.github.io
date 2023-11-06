@@ -55,10 +55,13 @@ TODO: Your Use-Case diagram should include all use-cases.
 
 ## Software Requirements Specification
 ### Functional requirements
-TODO: create a list of functional requirements. 
-    e.g. "The system shall ..."
-    Give each functional requirement a unique ID. e.g. FR1, FR2, ...
-    Indicate which UC the requirement comes from.
+FR1 The system shall get the users geo-location from navigator.geolocation
+
+FR2 The system shall get the nearest public toilets from the database
+
+FR3 the system shall get the information for the specified toilet from the database
+
+FR4 when appropriate, the system will filter out certain toilets even if they are closer but do not have the correct facilities
 
 
 ### Non-Functional Requirements
