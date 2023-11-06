@@ -3,26 +3,50 @@
 ## User Needs
 
 ### User stories
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
+As a parent, I need to find the closest public toilet with baby changing facilities to use changing rooms.
+
+As a tourist, I want to find the closest public toilet to me as I do not know the area.
+
+As part of the general public, I need to find a toilet that is suitable for my gender.
+
+As someone with a disability, I need to find a public toilet with disabled facilities so I can access the toilet.
+
+As someone up late, I need to find a toilet which is open at late hours so I do not waste time.
+
 
 ### Actors
-TODO: List and describe the actors/users for this product.
+Parent - Needs to find toilet with baby changing.
+
+Tourist - Does not know the area at all so they need a map to find their way.
+
+Public - Need to know where toilets are and if they are the correct gendered facilities.
+
+Disabled people - Need disableded toilets.
+
+Anyone who stays up late - Needs open toilet.
+
 
 ### Use Cases
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
-
-| TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
+| UC1 | Find toilets using geolocation | 
 | -------------------------------------- | ------------------- |
-| **Description** | TODO: Goal to be achieved by use case and sources for requirement |
-| **Actors** | TODO: List of actors involved in use case |
-| **Assumptions** | TODO: Pre/post-conditions if any</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
+| **Description** | User needs to find the closest public toilet to their currect location using a map and gps. |
+| **Actors** | Everyone |
+| **Assumptions** | They dont already know where the public toilets are, they are within a reasonable distance of the toilet
+| **Steps** | The user requests to view the map, The app requests permission to access the users location, The nearest public toilet to the accessed user location is given to the user on the map  |
+| **Variations** | If the user does not want to give location permissions then they can enter a location manually and the toilet can be found from there |
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Issues** | If the user has no service their location cannot be found so the app will not work |
+
+
+| UC2 | To find toilet that has specific facilities. | 
+| -------------------------------------- | ------------------- |
+| **Description** | Needs to find a toilet that has specific facilities. |
+| **Actors** | Everyone |
+| **Assumptions** | That the user needs a specific facility or doesnt already know which facilities are avaliable
+| **Steps** | When the user requests to find a toilet they will be given a list of filters to apply such as specific gender, disabled toilets, baby changing rooms and more |
+| **Variations** | If the user has no filteres to apply they can skip this step |
+| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Issues** | Not all filteres can be covered so some users may be exluded |
 
 
 TODO: Your Use-Case diagram should include all use-cases.
