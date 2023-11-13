@@ -68,3 +68,5 @@ NFR1 The public toilets outside of the users selected range should not be displa
 NFR2 The app should have a user freindly default browser when there is no geolocation avaliable (Reliability)
 
 NFR3 The app should work on a smartphone (Portability)
+
+NFR4 The data on the toilets should be as up to date and accurate as possible (Functional suitability)
