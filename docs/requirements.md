@@ -49,7 +49,7 @@ Anyone who stays up late - Needs open toilet.
 | **Issues** | Not all filteres can be covered so some users may be exluded |
 
 
-![Insert your Use-Case Diagram Here](images/UseCase.PNG)
+![Insert your Use-Case Diagram Here](images/UseCaseDiagram.PNG)
 
 ## Software Requirements Specification
 ### Functional requirements
