@@ -63,9 +63,9 @@ FR4 when appropriate, the system will filter out certain toilets even if they ar
 
 
 ### Non-Functional Requirements
-NFR1 The public toilets outside of the users selected range should not be displayed
+NFR1 The public toilets outside of the users selected range should not be displayed 
 
-NFR2
+NFR2 The app should work on a smartphone 
 
 NFR3
 
