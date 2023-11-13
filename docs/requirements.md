@@ -51,7 +51,7 @@ Anyone who stays up late - Needs open toilet.
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](images/UseCase.png)
+![Insert your Use-Case Diagram Here](images/UseCase.PNG)
 
 ## Software Requirements Specification
 ### Functional requirements
