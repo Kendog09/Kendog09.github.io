@@ -70,3 +70,6 @@ NFR2 The app should have a user freindly default browser when there is no geoloc
 NFR3 The app should work on a smartphone (Portability)
 
 NFR4 The data on the toilets should be as up to date and accurate as possible (Functional suitability)
+
+NFR5 The app should provide a user interface with suitable sized text so most users can read it (Usability)
+
