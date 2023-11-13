@@ -49,8 +49,6 @@ Anyone who stays up late - Needs open toilet.
 | **Issues** | Not all filteres can be covered so some users may be exluded |
 
 
-TODO: Your Use-Case diagram should include all use-cases.
-
 ![Insert your Use-Case Diagram Here](images/UseCase.PNG)
 
 ## Software Requirements Specification
@@ -65,7 +63,11 @@ FR4 when appropriate, the system will filter out certain toilets even if they ar
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
+NFR1 The public toilets outside of the users selected range should not be displayed
 
+NFR2
+
+NFR3
+
+NFR4
 Indicate which UC the requirement comes from.
