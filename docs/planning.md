@@ -4,7 +4,6 @@
 
 ### Problem statement
 This project will be used by the public to help people locate public toilets in and around Bristol.
-
 The problem we would like to highlight is that there isn't enough public toilets in the area.
 
 ### Business benefits
