@@ -34,6 +34,7 @@ Code needed:
 
 -Data that includes information such as facilities and opening times must be avaliable after searching.
 
+
 Other features needed:
 
 -The app must include a search-bar so users to search for locations near them.
