@@ -45,5 +45,6 @@ Other features needed:
 
 -The mobile device will require some sort of connection including wifi or mobile data.
 
+<img width="623" alt="Screenshot 2024-05-06 at 15 41 52" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/038008aa-7a42-4563-8147-44216c6f9a6b">
 
-docs/images/Screenshot 2024-05-06 at 15.41.52.png
+
