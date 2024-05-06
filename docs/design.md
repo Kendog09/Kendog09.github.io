@@ -20,7 +20,7 @@
 
 -The map  will be interactive allowing users to move, click, and zoom to their desired location.
 
-### Detailed individual toilet information
+### Detailed individual toilet information list
 
 -Each toilet will have information about their specific facilities and other information such as gender.
 
