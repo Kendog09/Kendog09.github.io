@@ -46,4 +46,4 @@ Other features needed:
 -The mobile device will require some sort of connection including wifi or mobile data.
 
 
-![Insert your Context Diagram Here](images/context.png)
+docs/images/Screenshot 2024-05-06 at 15.41.52.png
