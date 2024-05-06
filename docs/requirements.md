@@ -59,7 +59,8 @@ Anyone who stays up late - Needs open toilet.
 | **Non-functional** | The app should provide a user interface with suitable sized text so most users can read it |
 | **Issues** | At a certain time there may be no toiets avaliavle so nothing will be displayed |
 
-![Insert your Use-Case Diagram Here](images/UseCaseDiagram.PNG)
+<img width="413" alt="Screenshot 2024-05-06 at 16 38 20" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/e5713726-1334-4ff7-b195-c9226b5dc680">
+
 
 ## Software Requirements Specification
 ### Functional requirements
