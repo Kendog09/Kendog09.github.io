@@ -29,14 +29,19 @@ There are a few risks that present problems that could occur and should be taken
 Code needed:
 
 -Data from Bristol open data must be uploaded to allow the map locations to be shown.
+
 -Map must be loaded onto the website and should be interactive incluing moviving it around and clicking.
+
 -Data that includes information such as facilities and opening times must be avaliable after searching.
 
 Other features needed:
 
 -The app must include a search-bar so users to search for locations near them.
+
 -The user must be able to add certain filters so only appropriate toilets will be shown.
+
 -It must request permission to find the users location and compare it to the nearest toielet to them.
+
 -The mobile device will require some sort of connection including wifi or mobile data.
 
 
