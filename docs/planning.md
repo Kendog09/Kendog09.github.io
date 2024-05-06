@@ -3,8 +3,7 @@
 ## Business Case
 
 ### Problem statement
-This project will be used by the public to help people locate public toilets in and around Bristol.
-The problem we would like to highlight is that there isn't enough public toilets in the area.
+In urban environments such as Bristol, having accessable public toilets cis a persisten challenge for visitors and residents alike. This is a problem that remains persistent despite being a fundamental necessity. The problem is not necessarily the lack of public toilets but instead the lack of information on where they are. To avoid further discomfort, health hazards and inconvenience, there needs to be a more easy and simple way for the general public to locate the correct services that can also accommodate their specific needs such as baby changing rooms or disability facilities.
 
 ### Business benefits
 Find toilets nearby for people walking around Bristol, and any tourists visiting the area.
