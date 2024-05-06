@@ -30,3 +30,5 @@
 
 ## UI design
 <img width="514" alt="Screenshot 2024-05-06 at 17 56 47" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/ea0721da-309f-4a70-b886-9cd953092062">
+
+This user interface is user freindly as it is simple but still povides all the required information and menues that are needed to find the correct public toilets. The user interface may change during development as a more benefitial layout may be found after reviewing.
