@@ -34,7 +34,7 @@ Anyone who stays up late - Needs open toilet.
 | **Assumptions** | They dont already know where the public toilets are, they are within a reasonable distance of the toilet
 | **Steps** | The user requests to view the map, The app requests permission to access the users location, The nearest public toilet to the accessed user location is given to the user on the map  |
 | **Variations** | If the user does not want to give location permissions then they can enter a location manually and the toilet can be found from there |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Non-functional** | The public toilets outside of the users selected range should not be displayed |
 | **Issues** | If the user has no service their location cannot be found so the app will not work |
 
 
@@ -44,32 +44,54 @@ Anyone who stays up late - Needs open toilet.
 | **Actors** | Everyone |
 | **Assumptions** | That the user needs a specific facility or doesnt already know which facilities are avaliable
 | **Steps** | When the user requests to find a toilet they will be given a list of filters to apply such as specific gender, disabled toilets, baby changing rooms and more |
-| **Variations** | If the user has no filteres to apply they can skip this step |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
+| **Variations** | If the user has no filters to apply they can skip this step |
+| **Non-functional** | The app should provide a user interface with suitable sized text so most users can read it |
 | **Issues** | Not all filteres can be covered so some users may be exluded |
 
+
+| UC3 | To find toilet that has the correct opening times | 
+| -------------------------------------- | ------------------- |
+| **Description** | Needs to find a toilet that is not closed at the time its needed |
+| **Actors** | Someone who is up late |
+| **Assumptions** | That the user is awake at a time where the normal public toilets may be closed
+| **Steps** | When the user requests to find a toilet they will be given a list of toilets excluding the closed ones which will be filtered out |
+| **Variations** | If the user has no additional filters to apply they can skip this step |
+| **Non-functional** | The app should provide a user interface with suitable sized text so most users can read it |
+| **Issues** | At a certain time there may be no toiets avaliavle so nothing will be displayed |
 
 ![Insert your Use-Case Diagram Here](images/UseCaseDiagram.PNG)
 
 ## Software Requirements Specification
 ### Functional requirements
-FR1 The system shall get the users geo-location from navigator.geolocation
+*Each number after the FR is appropriate for the coresponding UC number.
 
-FR2 The system shall get the nearest public toilets from the database
+FR1.1 The system shall get the users geo-location from navigator.geolocation.
 
-FR3 the system shall get the information for the specified toilet from the database
+FR1.2 The system shall get the nearest public toilets from the database.
 
-FR4 when appropriate, the system will filter out certain toilets even if they are closer but do not have the correct facilities
+FR2.1 the system shall get the information for the specified toilet from the database.
+
+FR2.2 when appropriate, the system will filter out certain toilets even if they are closer but do not have the correct facilities.
+
+FR3.1 The system should provide directions to the required public toilet that is open.
+
+FR3.2 The system should filter out any closed public toilets as well as aditional filters.
 
 
 ### Non-Functional Requirements
-NFR1 The public toilets outside of the users selected range should not be displayed (Usability)
+*Each number after the FR is appropriate for the coresponding UC number.
 
-NFR2 The app should have a user freindly default browser when there is no geolocation avaliable (Reliability)
+NFR1.1 The public toilets outside of the users selected range should not be displayed (Usability).
 
-NFR3 The app should work on a smartphone (Portability)
+NFR1.2 The app should have a user freindly default browser when there is no geolocation avaliable (Reliability).
 
-NFR4 The data on the toilets should be as up to date and accurate as possible (Functional suitability)
+NFR1.3 The app should work on a smartphone (Portability).
 
-NFR5 The app should provide a user interface with suitable sized text so most users can read it (Usability)
+NFR2.1 The data on the toilets should be as up to date and accurate as possible (Functional suitability).
+
+NFR2.2 The app should provide a user interface with suitable sized text so most users can read it (Usability).
+
+NFR3.1 If no toilets are avaliable at a certain time an error message should be displayed to allow the user know there is no toilets avaliable.
+
+NFR3.2 The app should have good performance to respond to user interactions quickly.
 
