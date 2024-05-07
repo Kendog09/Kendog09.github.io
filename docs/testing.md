@@ -99,15 +99,16 @@ NFR3.2 The app should have good performance to respond to user interactions quic
 
 ## Test Runs
 
-| Use-Case ID| Requirement ID| Test Case| Pass / Fail|
+| Use-Case ID| Requirement ID| Test Case| Status|
 | ---------- | ------------- | -------- | ---------- |
-| use-case 1| requirement 1| Test case 1| Pass|
-| use-case 1| requirement 2| Test case 2| Pass|
-| use-case 2| requirement 3| Test case 3| Pass|
-| use-case 1| requirement 4| Test case 4| Pass|
-
-
-
+| use-case 1| FR1.1| The system shall get the users geo-location from navigator.geolocation| Pass|
+| use-case 1| FR1.2| The system shall get the nearest public toilets from the database| Pass|
+| use-case 2| FR2.1| The system shall get the information for the specified toilet from the database| Pass|
+| use-case 1| NFR1.2| There is a user freindly default browser when there is no geolocation avaliable| Pass|
+| use-case 2| NFR2.1| The data on the toilets should be as up to date and accurate as possible | Pass|
+| use-case 2| NFR2.2| There is a user interface with suitable sized text so most users can read it| Pass|
+| use-case 3| NFR3.1| If no toilets are avaliable at a certain time an error message should be displayed| Fail - UC3 is not fully implemented yet|
+| use-case 3| NFR3.2| The app should have good performance to respond to user interactions quickly| Pass|
 
 
 
