@@ -14,7 +14,12 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 
 ### Use Case 1: Find toilets using geolocation
 
-1.
+1. When the app is intially launched, the main menu will be displayed:
+
+<img width="826" alt="Screenshot 2024-05-07 at 21 26 40" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/ce07c880-6d77-4b95-a244-729760add54f">
+
+
+2. When the user clicks on 
 
 
 ### Use Case 2: To find toilet that has specific facilities
