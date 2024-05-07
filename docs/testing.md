@@ -14,7 +14,7 @@ Test: Is the user sent a notification to grant location permissions when PottyPa
 
 3.The user presses accept and the permission is granted.
 
-
+</br>
 
 ### Test Case ID: 2
 
@@ -28,7 +28,7 @@ Test: Is the map displayed with the correct markers for the public toilets?
 
 3.The map is properly displayed with the public toilets having marker icons displayed.
 
-
+</br>
 
 ### Test Case ID: 3
 
@@ -42,7 +42,7 @@ Test: Is the dataset correctly displayed and alocated to each toilet correctly?
 
 3.The toilet is displayed with the correct information besides it.
 
-
+</br>
 
 ### Test Case ID: 4
 
@@ -56,7 +56,7 @@ Test: Does it allow the user to find the closest toilet too them?
 
 3.The user selects find nearest public toilet and it is displayed with the correct information.
 
-
+</br>
 
 ## Test Runs
 
