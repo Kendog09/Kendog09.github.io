@@ -13,6 +13,7 @@ PottyPal is the main file which includes all of the html, css, and javascript re
 ## Software Architecture 
 
 ### Frontend Architecture:
+Frontend architecture is extremely important as it is essentially what the user will see and as they are who the app is made for it is important that it meets all their needs and expectations. This is why both frontend scripting for optimisation and user interface for the users own satisfaction are both very important in terms of frontend architecture.
 
 #### Frontend scripting:
 Frontend scripting breathes life into the app, allowing it to be more dynamic and interactive for the user. Here is how it enhances the frontend:
@@ -35,7 +36,7 @@ The User Interface (UI) of the PottyPal app plays a crucial role in user interac
 
 -Icons: Elements like maps and icons provide users with spatial context and help them visualize the locations of public toilets compared to their actual locations or surroundings. Maps allow users to explore nearby toilets visually and plan routes to desired destinations.
 
-
+### Backend Architecture 
 
 
 
