@@ -14,7 +14,7 @@ PottyPal is the main file which includes all of the html, css, and javascript re
 
 ### Frontend Architecture:
 
-Frontend scripting:
+#### Frontend scripting:
 Frontend scripting breathes life into the app, allowing it to be more dynamic and interactive for the user. Here is how it enhances the frontend:
 
 -Real-time Updates: Leveraging JavaScript frameworks, the app provides real-time updates to the UI, ensuring that users always have access to the latest information. 
@@ -25,7 +25,7 @@ Frontend scripting breathes life into the app, allowing it to be more dynamic an
 
 -Efficient Resource Management: JavaScript frameworks optimize resource management on the client-side, minimizing network requests and reducing load times. Lazy loading of content and efficient DOM manipulation techniques ensure that the apps performance remains sufficient enough to do what they need to do even on lower end devices. By leveraging these frontend components and client-side scripting techniques, PottyPal delivers a simple and accessible experience, allowing users to use the app with confidence.
 
-###User Interface:
+#### User Interface:
 
 The User Interface (UI) of the PottyPal app plays a crucial role in user interactions and providing access to essential features and information:
 
