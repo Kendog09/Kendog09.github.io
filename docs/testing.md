@@ -67,8 +67,8 @@ This table shows the above test cases status as well as which requirement it is 
 | Test Case ID| Requirement ID| Status|
 | ---------- | ------------- | ---------- |
 | Test Case ID: 1| FR1.1| Pass|
-| Test Case ID: 2| FR1.2| Pass|
-| Test Case ID: 3| FR1.1| Pass|
+| Test Case ID: 2| NFR2.2| Pass|
+| Test Case ID: 3| FR2.1| Pass|
 | Test Case ID: 4| FR1.2| Pass|
 
 
