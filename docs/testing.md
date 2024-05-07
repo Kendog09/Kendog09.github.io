@@ -62,13 +62,14 @@ Test: Does it allow the user to find the closest toilet too them?
 
 ### Test Case ID testing:
 
+This table shows the above test cases status as well as which requirement it is related too:
 
-| Use-Case ID| Requirement ID| Test Case| Status|
-| ---------- | ------------- | -------- | ---------- |
-| use-case 1| FR1.1| The system shall get the users geo-location from navigator.geolocation| Pass|
-| use-case 1| FR1.2| The system shall get the nearest public toilets from the database| Pass|
-
-
+| Test Case ID| Requirement ID| Status|
+| ---------- | ------------- | ---------- |
+| Test Case ID: 1| FR1.1| Pass|
+| Test Case ID: 2| FR1.2| Pass|
+| Test Case ID: 3| FR1.1| Pass|
+| Test Case ID: 4| FR1.2| Pass|
 
 
 </br>
@@ -76,6 +77,7 @@ Test: Does it allow the user to find the closest toilet too them?
 
 ### Use-Case / Functional and non-functional requirement testing:
 
+The table below shows the requirements status and which use case it is realted too:
 
 | Use-Case ID| Requirement ID| Test Case| Status|
 | ---------- | ------------- | -------- | ---------- |
