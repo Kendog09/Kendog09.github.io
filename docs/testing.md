@@ -71,6 +71,8 @@ Test: Does it allow the user to find the closest toilet too them?
 
 
 
+</br>
+
 
 ### Use-Case / Functional and non-functional requirement testing:
 
