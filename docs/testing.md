@@ -97,14 +97,15 @@ NFR3.2 The app should have good performance to respond to user interactions quic
 
 
 
-Test Runs
-TODO: For each test described above, indicate the current status. 
-Create a requirements traceability matrix to validate the completeness of the product.
+## Test Runs
 
-| Use-Case ID | Requirement ID | Test Case | Status |
-| ----------- | -------------- | --------- | ------ |
+| Use-Case ID | Requirement ID | Test Case   | Pass / Fail |
+| use-case 1  | requirement 1  | Test case 1 | Pass   |
+| use-case 1  | requirement 2  | Test case 2 | Pass   |
+| use-case 2  | requirement 3  | Test case 3 | Pass   |
+| use-case 1  | requirement 4  | Test case 4 | Pass   |
 
-TODO: Add rows for each test, current status is eg. pass/fail
+
 
 
 
