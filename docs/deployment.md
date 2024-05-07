@@ -24,8 +24,10 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 </br>
 
 
-2. When the user clicks on find nearest public toilet the option for the user to allow their location to be accessed will pop up and they must press accept for it to work:
-   
+2. When the user clicks on find nearest public toilet the option for the user to allow their location to be accessed will pop up.
+
+3. The user will then accept the pop up for it to work.
+
 <img width="428" alt="Screenshot 2024-05-07 at 21 27 09" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/8cc75607-043f-45ae-8715-03dbd8018747">
 
 </br>
@@ -33,10 +35,20 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 </br>
 
 
-3. 
+4. Then the map is then displayed to the user with the toilet locations marked.
 
 <img width="338" alt="Screenshot 2024-05-07 at 22 30 58" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/b1fdd27b-326c-4a49-b039-90fc9c6f2ca0">
 
+</br>
+</br>
+</br>
+
+
+5. the user can then select the most conventient toilet on the map and it will display the information about it in a list.
+
+</br>
+</br>
+</br>
 
 
 ### Use Case 2: To find toilet that has specific facilities
