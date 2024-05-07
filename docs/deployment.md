@@ -11,7 +11,12 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 
 
 # User guide
-TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
 
-![Insert screenshots here](images/screenshot.png)
-TODO: Repeat as necessary
+## Use Case 1: Find toilets using geolocation
+
+1.
+
+
+## Use Case 2: Find toilets using geolocation
+
+1.
