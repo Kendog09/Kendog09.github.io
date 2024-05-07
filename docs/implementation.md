@@ -81,8 +81,9 @@ The application server forms the backbone of the backend architecture, executing
 -Session Management: They handle session management, maintaining stateful interactions with clients across multiple requests and ensuring user authentication and authorization states.
 
 
+<img width="454" alt="Screenshot 2024-05-07 at 17 55 10" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/b90c324a-e440-43bd-98c5-520b5d8d8217">
 
-![Insert your component Diagram here](images/component.png)
+
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
