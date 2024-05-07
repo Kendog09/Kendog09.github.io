@@ -21,7 +21,7 @@
     
     <!--w3 -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <script> src="script.js" </script>
+    <script> src="8.script.js" </script>
     <script>
       const MY_TOKEN = "pk.eyJ1IjoibGFtaW5zb3dlIiwiYSI6ImNsc3QwZWswazB4ZHcya3FpMHlsMTRwcm0ifQ.Q_j87Q5QrGUbORgT5s3Bqw";
 
@@ -51,7 +51,7 @@
             let g = features[i].geometry;
             let marker = new mapboxgl.Marker().setLngLat([g.x, g.y]).addTo(map);
             // create the popup
-            let popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`<a href="index.html.html?id=${a.OBJECTID}">${a.TOILET_NAME}</a>`);
+            let popup = new mapboxgl.Popup({ offset: 25 }).setHTML(`<a href="4.index.html.html?id=${a.OBJECTID}">${a.TOILET_NAME}</a>`);
             marker.setPopup(popup);
 
         }
@@ -70,14 +70,14 @@
     <div class="grid-container">
         <header>
           <span class="heading"><a href="https://opendata.bristol.gov.uk/datasets/cca0ac9268bd4376a16fd391c2a274ca_21/explore">Public Toilet Finder</a></span>
-          <form class="search" action="search.html">
+          <form class="search" action="5.search.html">
             <input name="searchterm" placeholder="Search.." type="text" />
             <button type="submit"><i class="fa fa-search"></i></button>
           </form>
     </header>
     <nav>
-       <button onclick="getLocation('map.html.html')" class="w3-button w3-black w3-block w3-border-white"> Find by Map</button> 
-       <button onclick="location.href='type.html'" class="w3-button w3-black w3-block w3-border-white"> Find toilet by type</button> 
+       <button onclick="getLocation('2.map.html.html')" class="w3-button w3-black w3-block w3-border-white"> Find by Map</button> 
+       <button onclick="location.href='6.type.html'" class="w3-button w3-black w3-block w3-border-white"> Find toilet by type</button> 
     </nav>
     <main>
       <div id="map"></div>
