@@ -87,6 +87,3 @@ The diagram above shows the main components of PottyPal and how it uses Bristol 
 
 ## Bristol Open Data API
 
-
-![UML Class diagrams representing JSON query results](images/class1.png)
-TODO: Repeat as necessary
