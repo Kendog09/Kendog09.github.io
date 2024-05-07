@@ -27,7 +27,6 @@ Frontend scripting breathes life into the app, allowing it to be more dynamic an
 -Efficient Resource Management: JavaScript frameworks optimize resource management on the client-side, minimizing network requests and reducing load times. Lazy loading of content and efficient DOM manipulation techniques ensure that the apps performance remains sufficient enough to do what they need to do even on lower end devices. By leveraging these frontend components and client-side scripting techniques, PottyPal delivers a simple and accessible experience, allowing users to use the app with confidence.
 
 #### User Interface:
-
 The User Interface (UI) of the PottyPal app plays a crucial role in user interactions and providing access to essential features and information:
 
 -User accessability: The UI directly effects the users satisfaction and engagement. Having a well layed out and visually appealing interface enhances the overall user experience which makes it easier for users to find nearby public toilets, view details, and switch menues. All the important information and data must be clear and formated in well designed tables, and any interactive elements must be obvious to make it easier for users to find the necessary information.
@@ -36,37 +35,50 @@ The User Interface (UI) of the PottyPal app plays a crucial role in user interac
 
 -Icons: Elements like maps and icons provide users with spatial context and help them visualize the locations of public toilets compared to their actual locations or surroundings. Maps allow users to explore nearby toilets visually and plan routes to desired destinations.
 
-### Backend / Server side architecture:
 
+### Backend / Server side architecture:
 Backend architecture components are instrumental in the architecture of web applications, handling various backend functionalities and ensuring seamless communication between clients and servers. Here are the key server-side components and their roles:
 
 #### Web Server: 
-The web server acts as the primary interface between the client and the backend infrastructure, serving web pages and handling client requests. Its key functions include:
+A web server is the primary interface between the client and server side infrastructure, serving web pages and handling client requests. Its key functions include:
 
-Request Handling: Web servers efficiently manage incoming HTTP requests from clients, processing them according to the backend application's logic.
-Content Delivery: They deliver static content, such as HTML, CSS, and JavaScript files, to clients, ensuring fast and efficient content delivery.
-Application Logic Execution: Web servers execute the backend application code, which involves tasks like querying databases, processing data, and generating dynamic content.
-Routing and URL Mapping: They implement routing and URL mapping mechanisms to direct incoming requests to specific endpoints or resources within the backend application.
-Security and Scalability: Web servers include built-in security features to protect against common threats and ensure secure communication with clients. They also support scalability to handle a large volume of concurrent connections efficiently.
+-Content Delivery: They deliver static content, such as HTML, CSS, and JavaScript files, to clients, ensuring fast and efficient content delivery.
 
-#### Application Server:
-The application server forms the backbone of the backend architecture, executing business logic and generating dynamic content. Its key responsibilities include:
+-Application Logic Execution: Web servers execute the backend application code, which involves tasks like querying databases, processing data, and generating dynamic content.
 
-Request Processing: Application servers process incoming requests from clients, determining how to handle them based on the application's logic and configuration.
-Business Logic Execution: They execute the business logic of the application, which may involve tasks like data retrieval, processing user input, and applying business rules.
-External API Interaction: Application servers interact with external APIs to retrieve data or perform actions required by the application, such as integrating with third-party services for payment processing or geolocation.
-Session Management: They handle session management, maintaining stateful interactions with clients across multiple requests and ensuring user authentication and authorization states.
-Security Measures: Application servers implement security measures to protect against web vulnerabilities and ensure the integrity of the application's data and functionality.
+-Request Handling: Web servers efficiently manage incoming HTTP requests from clients, processing them according to the backend application's logic.
+
+-Security and Scalability: Web servers include built-in security features to protect against common threats and ensure secure communication with clients. They also support scalability to handle a large volume of concurrent connections efficiently.
+
+-Routing and URL Mapping: They implement routing and URL mapping mechanisms to direct incoming requests to specific endpoints or resources within the backend application.
+
 
 #### Proxy Server:
 Proxy servers act as intermediaries between clients and backend servers, enhancing security, performance, and manageability. Their key functions include:
 
-Request Routing: Proxy servers route incoming client requests to different backend servers or services based on predefined rules, enabling load balancing and traffic distribution.
-Security Enhancements: They enhance security by hiding the internal network topology and IP addresses of backend servers, inspecting and filtering incoming requests for malicious content, and enforcing security policies.
-Caching: Proxy servers cache responses from backend servers to improve performance and reduce latency for subsequent requests, thereby optimizing resource utilization.
-Content Transformation: They can modify or transform the content of requests and responses as they pass through the proxy, facilitating tasks like content compression, encryption, or protocol translation.
-Monitoring and Logging: Proxy servers log and monitor incoming and outgoing traffic, providing insights into usage patterns, performance metrics, and security events for troubleshooting and optimization purposes.
+-Content Transformation: They can modify or transform the content of requests and responses as they pass through the proxy, facilitating tasks like content compression, encryption, or protocol translation.
 
+-Request Routing: Proxy servers route incoming client requests to different backend servers or services based on predefined rules, enabling load balancing and traffic distribution.
+
+-Caching: Proxy servers cache responses from backend servers to improve performance and reduce latency for subsequent requests, thereby optimizing resource utilization.
+
+-Security Enhancements: They enhance security by hiding the internal network topology and IP addresses of backend servers, inspecting and filtering incoming requests for malicious content, and enforcing security policies.
+
+-Monitoring and Logging: Proxy servers log and monitor incoming and outgoing traffic, providing insights into usage patterns, performance metrics, and security events for troubleshooting and optimization purposes.
+
+
+#### Application Server:
+The application server forms the backbone of the backend architecture, executing business logic and generating dynamic content. Its key responsibilities include:
+
+-Business Logic Execution: They execute the business logic of the application, which may involve tasks like data retrieval, processing user input, and applying business rules.
+
+-Request Processing: Application servers process incoming requests from clients, determining how to handle them based on the application's logic and configuration.
+
+-Security Measures: Application servers implement security measures to protect against web vulnerabilities and ensure the integrity of the application's data and functionality.
+
+-External API Interaction: Application servers interact with external APIs to retrieve data or perform actions required by the application, such as integrating with third-party services for payment processing or geolocation.
+
+-Session Management: They handle session management, maintaining stateful interactions with clients across multiple requests and ensuring user authentication and authorization states.
 
 
 
