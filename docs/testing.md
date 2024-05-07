@@ -4,21 +4,63 @@
 
 ### Test Case ID: 1
 
-Test: Is the user sent a notification to grant location permissions when the web-app is opened?
-Test Steps:
--User opens PottyPal.
--Notification is recieved requesting location.
--
+Test: Is the user sent a notification to grant location permissions when PottyPal is opened?
+
+### Test steps:
+
+1.User opens PottyPal.
+
+2.Notification is recieved requesting location.
+
+3.The user presses accept and the permission is granted.
 
 
 
+### Test Case ID: 2
+
+Test: Is the map displayed with the correct markers for the public toilets?
+
+### Test steps:
+
+1.User opens pottyPal and grants location permissions.
+
+2.User selects the option to open the map.
+
+3.The map is properly displayed with the public toilets having marker icons displayed.
 
 
+
+### Test Case ID: 3
+
+Test: Is the dataset correctly displayed and alocated to each toilet correctly?
+
+### Test steps:
+
+1.User opens pottyPal.
+
+2.User selects the option to find by type or searches a specific toilet.
+
+3.The toilet is displayed with the correct information besides it.
+
+
+
+### Test Case ID: 4
+
+Test: Does it allow the user to find the closest toilet too them?
+
+### Test steps:
+
+1.User opens pottyPal.
+
+2.User allows location permissions.
+
+3.The user selects find nearest public toilet and it is displayed with the correct information.
 
 
 
 Functional requirements
 *Each number after the FR is appropriate for the coresponding UC number.
+
 
 FR1.1 The system shall get the users geo-location from navigator.geolocation.
 
