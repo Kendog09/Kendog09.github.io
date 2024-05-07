@@ -18,7 +18,9 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 
 <img width="826" alt="Screenshot 2024-05-07 at 21 26 40" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/ce07c880-6d77-4b95-a244-729760add54f">
 
+
 </br>
+
 
 2. When the user clicks on find nearest public toilet the option for the user to allow their location to be accessed will pop up and they must press accept for it to work:
    
