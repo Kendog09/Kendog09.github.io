@@ -83,10 +83,10 @@ The application server forms the backbone of the backend architecture, executing
 
 <img width="454" alt="Screenshot 2024-05-07 at 17 55 10" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/b90c324a-e440-43bd-98c5-520b5d8d8217">
 
-
+The diagram above shows the main components of PottyPal and how it uses Bristol Open Data and MapBox.
 
 ## Bristol Open Data API
-TODO: Document each query to Bristol Open Data
+
 
 ![UML Class diagrams representing JSON query results](images/class1.png)
 TODO: Repeat as necessary
