@@ -29,6 +29,8 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 <img width="428" alt="Screenshot 2024-05-07 at 21 27 09" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/8cc75607-043f-45ae-8715-03dbd8018747">
 
 </br>
+</br>
+</br>
 
 
    
