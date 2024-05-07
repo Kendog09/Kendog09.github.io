@@ -10,9 +10,9 @@ The layout of my folder can be seen below:
 
 PottyPal is the main file which includes all of the html, css, and javascript required for the web app to run. Below this file is the docs file which is where all the documentation is included. Within the docs file is an images file which is a bank of all images used including diagrams and screenshots. The documentation is then split into planning, requirements, design, implementation, testing and deployment which all include different stages of documentation of development.
 
-## Software Architecture
+## Software Architecture 
 
-Frontend Architecture:
+### Frontend Architecture:
 
 Frontend scripting:
 Frontend scripting breathes life into the app, allowing it to be more dynamic and interactive for the user. Here is how it enhances the frontend:
