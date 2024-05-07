@@ -87,3 +87,7 @@ The diagram above shows the main components of PottyPal and how it uses Bristol 
 
 ## Bristol Open Data API
 
+<img width="454" alt="Screenshot 2024-05-07 at 18 20 50" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/a50dc40d-11fe-499b-b700-13d3737e5b37">
+
+
+
