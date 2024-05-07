@@ -33,7 +33,10 @@ The diagram below shows the interaction between Github and Bristol Open Data:
 </br>
 
 
-   
+3. 
+
+<img width="338" alt="Screenshot 2024-05-07 at 22 30 58" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/b1fdd27b-326c-4a49-b039-90fc9c6f2ca0">
+
 
 
 ### Use Case 2: To find toilet that has specific facilities
