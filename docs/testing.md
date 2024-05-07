@@ -1,6 +1,9 @@
 # Testing
 
 ## Test Plan
+Functional requirements
+*Each number after the FR is appropriate for the coresponding UC number.
+
 FR1.1 The system shall get the users geo-location from navigator.geolocation.
 
 FR1.2 The system shall get the nearest public toilets from the database.
@@ -12,6 +15,8 @@ FR2.2 when appropriate, the system will filter out certain toilets even if they 
 FR3.1 The system should provide directions to the required public toilet that is open.
 
 FR3.2 The system should filter out any closed public toilets as well as aditional filters.
+
+
 
 Non-Functional Requirements
 *Each number after the FR is appropriate for the coresponding UC number.
@@ -29,7 +34,6 @@ NFR2.2 The app should provide a user interface with suitable sized text so most 
 NFR3.1 If no toilets are avaliable at a certain time an error message should be displayed to allow the user know there is no toilets avaliable.
 
 NFR3.2 The app should have good performance to respond to user interactions quickly.
-
 
 
 Test Runs
