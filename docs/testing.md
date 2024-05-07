@@ -1,6 +1,22 @@
 # Testing
 
 ## Test Plan
+
+### Test Case ID: 1
+
+Test: Is the user sent a notification to grant location permissions when the web-app is opened?
+Test Steps:
+-User opens PottyPal.
+-Notification is recieved requesting location.
+-
+
+
+
+
+
+
+
+
 Functional requirements
 *Each number after the FR is appropriate for the coresponding UC number.
 
@@ -34,6 +50,9 @@ NFR2.2 The app should provide a user interface with suitable sized text so most 
 NFR3.1 If no toilets are avaliable at a certain time an error message should be displayed to allow the user know there is no toilets avaliable.
 
 NFR3.2 The app should have good performance to respond to user interactions quickly.
+
+
+
 
 
 Test Runs
