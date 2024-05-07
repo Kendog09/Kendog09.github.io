@@ -100,6 +100,7 @@ NFR3.2 The app should have good performance to respond to user interactions quic
 ## Test Runs
 
 | Use-Case ID| Requirement ID| Test Case| Pass / Fail|
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | use-case 1| requirement 1| Test case 1| Pass|
 | use-case 1| requirement 2| Test case 2| Pass|
 | use-case 2| requirement 3| Test case 3| Pass|
