@@ -56,9 +56,9 @@ A web server is the primary interface between the client and server side infrast
 #### Proxy Server:
 Proxy servers act as intermediaries between clients and backend servers, enhancing security, performance, and manageability. Their key functions include:
 
--Content Transformation: They can modify or transform the content of requests and responses as they pass through the proxy, facilitating tasks like content compression, encryption, or protocol translation.
+-Data conversion: The proxy server can modify or transform content of requests and responses as they pass through the proxy which facilitates tasks like content encryption, or compression.
 
--Request Routing: Proxy servers route incoming client requests to different backend servers or services based on predefined rules, enabling load balancing and traffic distribution.
+-Traffic directing: The server can reroute client requests to different backend servers or services based on predefined rules, enabling load balancing and traffic distribution.
 
 -Caching: Proxy servers cache responses from backend servers to improve performance and reduce latency for subsequent requests, thereby optimizing resource utilization.
 
