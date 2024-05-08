@@ -37,20 +37,20 @@ The User Interface (UI) of the PottyPal app plays a crucial role in user interac
 
 
 ### Backend / Server side architecture:
-Backend architecture components are instrumental in the architecture of web applications, handling various backend functionalities and ensuring seamless communication between clients and servers. Here are the key server-side components and their roles:
+Backend architecture components are crucial in the architecture of web-apps as they handle various backend functionalities and ensuring seamless communication between clients and servers. Here are the key server-side components and their roles:
 
 #### Web Server: 
 A web server is the primary interface between the client and server side infrastructure, serving web pages and handling client requests. Its key functions include:
 
--Content Delivery: They deliver static content, such as HTML, CSS, and JavaScript files, to clients, ensuring fast and efficient content delivery.
+-Distribution: They deliver content such as HTML, CSS, and JavaScript files to clients, as fast and efficient as possible which imrpoves speed and customer satisfaction.
 
--Application Logic Execution: Web servers execute the backend application code, which involves tasks like querying databases, processing data, and generating dynamic content.
+-Backend operations handling: The server will execute the backend application code which will involve tasks like processing data and querying databases.
 
--Request Handling: Web servers efficiently manage incoming HTTP requests from clients, processing them according to the backend application's logic.
+-Request processing: A web server will manage incoming HTTP requests from clients very efficiently by processing them according to the backend application's logic.
 
--Security and Scalability: Web servers include built-in security features to protect against common threats and ensure secure communication with clients. They also support scalability to handle a large volume of concurrent connections efficiently.
+-Security and Scalability: Web servers will include security features to protect against common threats and ensure secure communication with clients. They also support scalability to handle a large volume of concurrent connections efficiently. Some examples of the threats that is may encounter are SQL injections or DDoS attacks.
 
--Routing and URL Mapping: They implement routing and URL mapping mechanisms to direct incoming requests to specific endpoints or resources within the backend application.
+-Route management and URL navigation: They implement routing and URL mapping mechanisms to direct incoming requests to specific endpoints or resources within the backend application.
 
 
 #### Proxy Server:
