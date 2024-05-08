@@ -60,25 +60,25 @@ Proxy servers act as intermediaries between clients and backend servers, enhanci
 
 -Traffic directing: The server can reroute client requests to different backend servers or services based on predefined rules, enabling load balancing and traffic distribution.
 
--Caching: Proxy servers cache responses from backend servers to improve performance and reduce latency for subsequent requests, thereby optimizing resource utilization.
+-Caching: Proxy servers cache responses from backend servers to improve performance and reduce latency for requests, thereby optimizing resource utilization.
 
 -Security Enhancements: They enhance security by hiding the internal network topology and IP addresses of backend servers, inspecting and filtering incoming requests for malicious content, and enforcing security policies.
 
--Monitoring and Logging: Proxy servers log and monitor incoming and outgoing traffic, providing insights into usage patterns, performance metrics, and security events for troubleshooting and optimization purposes.
+-Tracking and recording: The servers track and record incoming and outgoing traffic so it can provide insights into its performance metrics, usage patterns, and security events for troubleshooting and optimization purposes.
 
 
 #### Application Server:
 The application server forms the backbone of the backend architecture, executing business logic and generating dynamic content. Its key responsibilities include:
 
--Business Logic Execution: They execute the business logic of the application, which may involve tasks like data retrieval, processing user input, and applying business rules.
+-Processing of operational rules: The application server executes the business logic of the application, which may involve tasks like data retrieval, processing user input, and applying business rules.
 
--Request Processing: Application servers process incoming requests from clients, determining how to handle them based on the application's logic and configuration.
+-Request handling: Application servers process incoming requests from clients, determining how to handle them based on the application's logic and configuration.
 
--Security Measures: Application servers implement security measures to protect against web vulnerabilities and ensure the integrity of the application's data and functionality.
+-Security: Application servers have advance security measures to protect against potential vulnerabilities and ensure the integrity of the application's data and functionality.
 
--External API Interaction: Application servers interact with external APIs to retrieve data or perform actions required by the application, such as integrating with third-party services for payment processing or geolocation.
+-External service communications: Application servers will interact with external APIs to retrieve data or perform required actions such as integrating with third-party services for payment processing or geolocation.
 
--Session Management: They handle session management, maintaining stateful interactions with clients across multiple requests and ensuring user authentication and authorization states.
+-Session handling: They will handle session management as well as maintaining interactions with clients across multiple requests and ensuring user authentication.
 
 
 <img width="454" alt="Screenshot 2024-05-07 at 17 55 10" src="https://github.com/Kendog09/Kendog09.github.io/assets/110036605/b90c324a-e440-43bd-98c5-520b5d8d8217">
