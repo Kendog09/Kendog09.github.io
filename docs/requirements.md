@@ -27,7 +27,7 @@ Anyone who stays up late - Needs open toilet.
 
 
 ### Use Cases
-| UC1 | Find toilets using geolocation, Harrison Hamilton | 
+| UC1, Harrison Hamilton | Find toilets using geolocation | 
 | -------------------------------------- | ------------------- |
 | **Description** | User needs to find the closest public toilet to their currect location using a map and gps. |
 | **Actors** | Everyone |
